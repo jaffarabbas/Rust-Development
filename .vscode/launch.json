@@ -3,5 +3,25 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug rust-first-dive",
+            "program": "${workspaceRoot}/rust-first-dive/target/debug/rust-first-dive",
+            "args": [],
+            "cwd": "${workspaceRoot}/rust-first-dive",
+            "sourceLanguages": ["rust"]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug another-project",
+            "program": "${workspaceRoot}/another-project/target/debug/another-project",
+            "args": [],
+            "cwd": "${workspaceRoot}/another-project",
+            "sourceLanguages": ["rust"]
+        },
+        // Add configurations for other projects as needed
+    ]
 }
