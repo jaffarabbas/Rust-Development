@@ -3,9 +3,3 @@ pub mod string_helper{
         s.len()
     }
 }
-
-pub mod string_helper_v2{
-    pub fn calculate_length2(s: &String) -> usize {
-        s.len()
-    }
-}
