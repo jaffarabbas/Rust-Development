@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "connections": [
+      {
+        "driver": "sqlx::mssql::Mssql",
+        "url": "mssql://DESKTOP-AC9GNMR/DB_JEWELSITE?trust_server_certificate=true"
+      }
+    ]
+  }
